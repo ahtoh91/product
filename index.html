@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>product</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=0">
+	<link href="css/style.css" rel="stylesheet" type="text/css" media=screen>
+	 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" >
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" media=screen>
+	<link rel="stylesheet" id="redux-google-fonts-woodmart_options-css" href="https://fonts.googleapis.com/css?family=Lato%3A100%2C300%2C400%2C700%2C900%2C100italic%2C300italic%2C400italic%2C700italic%2C900italic%7CPoppins%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100italic%2C200italic%2C300italic%2C400italic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic%7CSatisfy%3A400&amp;ver=1516890308" type="text/css" media="all">
+	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+	<script type="text/javascript" src="js/slick.js"></script>
+	<script type="text/javascript" src="js/elevatezoom.js"></script>
+	<script type="text/javascript" src="js/product.js" ></script>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+</head>
+<body>
+		<header class="header" id="navbar">
+			<div class="header-top">
+				<div class="container">
+					<div class="header-top-left col-xs-12 col-sm-7 col-md-7 ">
+						<ul>
+							<li>
+								<a href="mailto:themes@freshface.net">
+									<i class="fa fa-envelope" aria-hidden="true"></i>
+									<span class="btn-text">info@julietspa.com</span>
+								</a>
+							</li>
+							<li>
+								<a href="tel:123-45-678">
+									<i class="fa fa-phone" aria-hidden="true"></i>
+									<span class="btn-text">Call us: 123-45-6789</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="header-top-right col-xs-12 col-sm-5 col-md-5">
+						<ul class="list-inline">
+							<li>
+								<a href="#" target="_blank">
+									<i class="fa fa-twitter" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">
+									<i class="fa fa-facebook" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">
+									<i class="fa fa-instagram" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">
+									<i class="fa fa-pinterest-p" aria-hidden="true"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="header-bottom" >
+				<div class="container">
+					<div class="menu-mobile">
+						<i class="fa fa-bars" aria-hidden="true"></i>
+					</div>
+					<div class="menu-top">
+						<i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+					</div>
+					<div class="header-logo">
+						<a href="">
+							<img src="img/logo.png">
+						</a>
+					</div>
+					<div class="menu">
+						<ul class="nav">
+							<li class="menu-item">
+								<a href="">Home</a>
+							</li>
+							<li class="menu-item">
+								<a href="">About</a>
+							</li>
+							<li class="menu-item">
+								<a href="">Services</a>
+							</li>
+							<li class="menu-item">
+								<a href="">Booking</a>
+							</li>
+							<li class="menu-item">
+								<a href="">Gallery</a>
+							</li>
+							<li class="menu-item">
+								<a href="">Blog</a>
+							</li>
+							<li class="menu-item">
+								<a href="">Contact</a>
+							</li>
+						</ul>
+					</div>
+					<div class="header-cart">
+						<div class="shopping-cart">
+							<a href="javascript:void(0);" class="shopping-cart-icon">
+								<span class="shopping-cart-icon-wrapper" title="0">
+									<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+								</span>
+							</a>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</header>
+		<main class="main-content " role="main">
+			<div class="product-page">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-6 product-img-box ">
+							<div class="product-photo-container">
+								<div class="pr_main">
+									<figure class="productView-image">
+										<a id="popup-gallery" data-fancybox="gallery" href="img/product-1.jpg">
+											<img class="zoom" src="img/product-1.jpg" data-zoom-image="img/product-1.jpg">
+										</a>
+									</figure>
+									<figure class="productView-image">
+										<a data-fancybox="gallery" href="img/product-2.jpg">
+											<img class="zoom" src="img/product-2.jpg" data-zoom-image="img/product-2.jpg">
+										</a>
+									</figure>
+									<figure class="productView-image">
+										<a data-fancybox="gallery" href="img/product-3.jpg">
+											<img class="zoom" src="img/product-3.jpg" data-zoom-image="img/product-1.jpg">
+										</a>
+									</figure>
+								</div>
+								<div id="gallery-wrap">
+									<i class="fa fa-arrows-alt" aria-hidden="true"></i>
+									<span>Click to enlarge</span>
+								</div>
+							</div>
+							<div class="product-thumbnails">
+								<div class="pr_slick">
+									<div class="productView-thumbnail">
+										<a>
+											<img src="img/product-thumbnails-1.jpg">
+										</a>
+									</div>
+									<div class="productView-thumbnail">
+										<a >
+											<img src="img/product-thumbnails-2.jpg">
+										</a>
+									</div>
+									<div class="productView-thumbnail">
+										<a>
+											<img src="img/product-thumbnails-3.jpg">
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 product-details">
+							<div class="productView-product">
+								<h1 class="productView-title" itemprop="name">Smart watches wood edition</h1>
+								<div class="prices"><span>$599.00</span></div>
+								<div class="short-description">
+									<p>Himenaeos parturient nam a justo placerat lorem erat pretium a fusce pharetra pretium enim sagittis ut nunc neque torquent sem a leo.Dictumst himenaeos primis torquent ridiculus porttitor turpis.</p>
+								</div>
+								<form method="post" action="" id="add-to-cart-form" accept-charset="UTF-8" enctype="multipart/form-data">
+									<div class="quantity">
+										<button class="button" data-action="dec">-</button>
+		                                <input type="text" id="quantity" name="quantity" value="1">
+		                                <button class="button button-plus">+</button>
+									</div>
+									<button type="submit" name="add-to-cart" class="btn" id="product-add-to-cart">Add to cart</button>
+								</form>
+								<div class="product_ward">
+									<div class="add-to-wishlist">
+										<i class="fa fa-heart-o" aria-hidden="true"></i>
+										<a href="">Add to Wishlist</a>
+									</div>
+									<div class="size-chart">
+										<a href="javascript:void(0)">Size Guide</a>
+									</div>
+								</div>
+								<div class="product_meta">
+									<span class="posted_in">Category: <a href="" rel="tag">Furniture</a></span>
+								</div>
+								<div class="share_toolbox">
+									 <div>Share:</div>
+									<ul>
+										  <div class="addthis_inline_share_toolbox"></div>
+										<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-595b0ea2fb9c5869"></script>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="product-tabs">
+					<div class="container">
+						<div class="panel-group">
+							<ul class="nav-tabs" id="mytabs">
+								<li class="tab-link active" data-tab="tab-1">
+									<a href="javascript:void(0);">Description</a>
+								</li>
+								<li class="tab-link" data-tab="tab-2">
+									<a href="javascript:void(0);">Reviews (0)</a>
+								</li>
+								<li class="tab-link" data-tab="tab-3">
+									<a href="javascript:void(0);">About brand</a>
+								</li>
+							</ul>
+							<div id="tab-1" class="tab-content active">
+								<a class="title-tab" href="javascript:void(0);">Description</a>
+								<div class="tab_wrapper">
+									<p>Cubilia vestibulum interdum nisl a parturient a auctor vestibulum taciti vel bibendum tempor adipiscing suspendisse posuere libero penatibus lorem at interdum tristique iaculis redosan condimentum a ac rutrum mollis consectetur. Aenean nascetur vehicula egestas a adipiscing a est egestas suspendisse parturient diam adipiscing mattis elementum velit pulvinar suscipit sagittis facilisis facilisi tortor morbi at aliquam.</p>
+									<blockquote><p>
+									Netus nisi volutpat donec condimentum nunc eu sem odio condimentum hendrerit nisl mollis scelerisque ad vitae a eu.
+									</p></blockquote>
+									<p>Etiam dictumst congue a non class risus sed a. Diam adipiscing a condimentum in a nisl a maecenas libero pharetra tincidunt phasellus justo molestie bibendum. Vestibulum penatibus vestibulum lobortis vehicula euismod a platea taciti a eget in nec cum eget curabitur justo id enim mi velit at cum. Eu amet ut elit a sociis himenaeos eros nunc at pharetra magna suscipit.</p>
+								</div>
+							</div>
+							<div id="tab-2" class="tab-content">
+								<a class="title-tab" href="javascript:void(0);">Reviews (0)</a>
+								<div class="tab_wrapper">
+									<div class="product-reviews">
+										<div class="col-xs-12 col-sm-6 reviews-left">
+											<h2 class="reviews-title">Reviews</h2>
+											<p class="noreviews">There are no reviews yet.</p>
+											<!---has-reviews -->
+											<div class="has-reviews">
+												<h2 class="reviews-title"><span>1</span> Revivew for wine bottle lantern</h2>
+												<div class="review-content">
+													<i class="fa fa-user-circle" aria-hidden="true"></i>
+													<div class="review-content-body">
+														<span class="review-name">admin</span> - <span class="review-date">January 14,2018</span>
+														<p>Good</p> 
+													</div>
+													<div class="review-starratings">
+														<a class="star-5 ">
+															<i class="fa fa-star" aria-hidden="true"></i>
+															<i class="fa fa-star" aria-hidden="true"></i>
+															<i class="fa fa-star" aria-hidden="true"></i>
+															<i class="fa fa-star" aria-hidden="true"></i>
+															<i class="fa fa-star" aria-hidden="true"></i>
+														</a>
+													</div>
+												</div>
+												<div class="review-content">
+													<i class="fa fa-user-circle" aria-hidden="true"></i>
+													<div class="review-content-body">
+														<span class="review-name">admin</span> - <span class="review-date">January 14,2018</span>
+														<p>Good</p> 
+													</div>
+													<div class="review-starratings">
+														<a class="star-5 ">
+															<i class="fa fa-star" aria-hidden="true"></i>
+															<i class="fa fa-star" aria-hidden="true"></i>
+															<i class="fa fa-star" aria-hidden="true"></i>
+															<i class="fa fa-star" aria-hidden="true"></i>
+															<i class="fa fa-star" aria-hidden="true"></i>
+														</a>
+													</div>
+												</div>
+
+											</div>
+										</div>
+										<div class="col-xs-12 col-sm-6 reviews-right">
+											<div class="comment-reply-title">
+												<span>Be the first to review “Classic wooden chair”</span>
+												<form method="post" action="" class="new-review-form">
+													<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p>
+													<div class="comment-form-rating">
+														<label for="rating">Your rating:</label>
+														<p class="stars selected">
+															<a class="star-1">
+																<i class="fa fa-star-o" aria-hidden="true"></i>
+															</a>
+															<a class="star-2">
+																<i class="fa fa-star-o" aria-hidden="true"></i>
+																<i class="fa fa-star-o" aria-hidden="true"></i>
+															</a>
+															<a class="star-3">
+																<i class="fa fa-star-o" aria-hidden="true"></i>
+																<i class="fa fa-star-o" aria-hidden="true"></i>
+																<i class="fa fa-star-o" aria-hidden="true"></i>
+															</a>
+															<a class="star-4">
+																<i class="fa fa-star-o" aria-hidden="true"></i>
+																<i class="fa fa-star-o" aria-hidden="true"></i>
+																<i class="fa fa-star-o" aria-hidden="true"></i>
+																<i class="fa fa-star-o" aria-hidden="true"></i>
+															</a>
+															<a class="star-5 ">
+																<i class="fa fa-star-o" aria-hidden="true"></i>
+																<i class="fa fa-star-o" aria-hidden="true"></i>
+																<i class="fa fa-star-o" aria-hidden="true"></i>
+																<i class="fa fa-star-o" aria-hidden="true"></i>
+																<i class="fa fa-star-o" aria-hidden="true"></i>
+															</a>
+														</p>
+													</div>
+													<div class="comment-form-comment">
+														<label for="comment">Your review <span class="required">*</span></label>
+														<textarea id="comment" name="comment" cols="45" rows="8" aria-required="true" required=""></textarea>
+													</div>
+													<div class="comment-form">
+														<div class="comment-form-author">
+															<label for="author">Name <span class="required">*</span></label>
+															<input id="author" name="author" type="text" value="" size="30" aria-required="true" required="">
+														</div>
+														<div class="comment-form-email">
+															<label for="email">Email <span class="required">*</span></label>
+															<input id="email" name="email" type="email" value="" size="30" aria-required="true" required="">
+														</div>
+													</div>
+													<div class="form-submit">
+														<input name="submit" type="submit" class="submit" value="Submit">
+													</div>
+												</form> 
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div id="tab-3" class="tab-content">
+								<a class="title-tab" href="javascript:void(0);">About brand</a>
+								<div class="tab_wrapper">
+									<div class="col-xs-12 col-sm-4 brand-content">
+										<div class="logo-brand">
+											<img src="img/logo-brand.png">
+											<p>Parturient ut id tellus vulputatre ac ultrlices a part ouriesnt sapien dignissim <a href="#"><strong>partu rient</strong></a> a a inter drum vehicula. Ornare metus laoreet tincidunt <a href="#"><strong>eros rolem</strong></a> tristique pretium malada.</p>
+										</div>
+										<div class="brand-cn">
+											<p>Cras rhoncus vivamus luctus platea arcu laoreet selm. Curae est condenectus sed hac a parturient vestibulum.</p>
+										</div>
+										<a href="#" title="" class="btn btn-size-default">MORE PRODUCTS</a>
+									</div>
+									<div class="col-xs-12 col-sm-8 brand-product">
+										<div class="pro-item col-xs-6 col-sm-6 col-md-4">
+											<div class="product-element-top">
+												<img src="img/product-clock-1.jpg">
+												<div class="product-label">
+													<strong class="label">-33%</strong>
+												</div>
+												<div class="actions">
+													<div class="wishlist-button">
+														<a class="open-wishlist" href="javascript:void(0)" title="Add To Wishlist">
+															<span>Add To Wishlist</span>
+															<i class="fa fa-heart-o" aria-hidden="true"></i>
+														</a>
+													</div>
+													<div class="quickview-button">
+														<a class="open-quick-view" href="javascript:void(0)" title="Quick View">
+															<span>Quick View</span>
+															<i class="fa fa-search" aria-hidden="true"></i>
+														</a>
+													</div>
+												</div>
+												<div class="top-information">
+													<h3 class="product-title">
+														<a href="">Best clock parallels</a>
+													</h3>
+													<div class="price-box">
+														<span class="old-price"> $500.00 </span>
+														<span>-</span>
+														<span class="money"> $750.00 </span>
+													</div>
+													<div class="add-btn">
+														<a class="btn" href="#" title="Select options"><span>Select options</span></a>
+													</div>
+												</div>
+											</div>
+
+										</div>
+										<div class="pro-item col-xs-6 col-sm-6 col-md-4">
+											<div class="product-element-top">
+												<img src="img/product-clock-2.jpg">
+												
+												<div class="actions">
+													<div class="wishlist-button">
+														<a class="open-wishlist" href="javascript:void(0)" title="Add To Wishlist">
+															<span>Add To Wishlist</span>
+															<i class="fa fa-heart-o" aria-hidden="true"></i>
+														</a>
+													</div>
+													<div class="quickview-button">
+														<a class="open-quick-view" href="javascript:void(0)" title="Quick View">
+															<span>Quick View</span>
+															<i class="fa fa-search" aria-hidden="true"></i>
+														</a>
+													</div>
+												</div>
+												<div class="top-information">
+													<h3 class="product-title">
+														<a href="">Classic wooden chair</a>
+													</h3>
+													<div class="price-box">
+														<span class="old-price"> $299.00 </span>
+														
+													</div>
+													<div class="add-btn">
+														<a class="btn" href="#" title="Select options"><span>Add To Cart</span></a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="pro-item col-xs-6 col-sm-6 col-md-4">
+											<div class="product-element-top">
+												<img src="img/product-clock-3.jpg">
+												
+												<div class="actions">
+													<div class="wishlist-button">
+														<a class="open-wishlist" href="javascript:void(0)" title="Add To Wishlist">
+															<span>Add To Wishlist</span>
+															<i class="fa fa-heart-o" aria-hidden="true"></i>
+														</a>
+													</div>
+													<div class="quickview-button">
+														<a class="open-quick-view" href="javascript:void(0)" title="Quick View">
+															<span>Quick View</span>
+															<i class="fa fa-search" aria-hidden="true"></i>
+														</a>
+													</div>
+												</div>
+												<div class="top-information">
+													<h3 class="product-title">
+														<a href="">Decoration wooden present</a>
+													</h3>
+													<div class="price-box">
+														<span class="old-price"> $89.00 </span>
+														
+													</div>
+													<div class="add-btn">
+														<a class="btn" href="#" title="Select options"><span>Add To Cart</span></a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</main>
+		<footer class="wn-footer">
+			<div class="footer-top">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-3 text-center ">
+							<div class="logo-footer">
+								<div class="fg-vcenter">
+								<a href="">
+									<img src="img/logo-spa-juliets-spa-white.png">
+								</a>
+								<p class="text-center fg-text-light">Health & Beauty</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-3">
+							<h3>Most Frequent Question</h3>
+							<ul>
+								<li>
+									<a href="">
+										<i class="fa fa-angle-double-right" aria-hidden="true"></i>
+										<span>How long will I have to wait after getting my nails done?</span>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<i class="fa fa-angle-double-right" aria-hidden="true"></i>
+										<span>Does Eve have nail drying stations?</span>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<i class="fa fa-angle-double-right" aria-hidden="true"></i>
+										<span>What is a moon manicure?</span>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<i class="fa fa-angle-double-right" aria-hidden="true"></i>
+										<span>What is a Shellac Manicure or Pedicure?</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-xs-12 col-sm-3">
+							<h3>What we offer</h3>
+							<ul>
+								<li>
+									<a href="">
+										<i class="fa fa-angle-double-right" aria-hidden="true"></i>
+										<span>Gel Manicure</span>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<i class="fa fa-angle-double-right" aria-hidden="true"></i>
+										<span>Gel Pedicure</span>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<i class="fa fa-angle-double-right" aria-hidden="true"></i>
+										<span>Waxing</span>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<i class="fa fa-angle-double-right" aria-hidden="true"></i>
+										<span>Span</span>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<i class="fa fa-angle-double-right" aria-hidden="true"></i>
+										<span>Microblading</span>
+									</a>
+								</li>
+							</ul>
+							</div>
+							<div class="col-xs-12 col-sm-3 footer-right">
+							<h3>Contact info</h3>
+							<ul>
+								<li>
+									<a href="">
+										<i class="fa fa-envelope" aria-hidden="true"></i>
+										<span>info@julietspa.com</span>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<i class="fa fa-phone" aria-hidden="true"></i>
+										<span>1900-1080</span>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<i class="fa fa-map-marker" aria-hidden="true"></i>
+										<span>795 Folsom Ave, Suite 600,<br>San Francisco, CA 94107</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="text-center">Copyright © Juliet’s Spa</div>
+			</div>
+			<a href="#" id="goTop" class="bd-circle t-center"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+		</footer>
+		<div class="cart-widget-side">
+			<div class="cart-cn">
+				<div class="widget-heading">
+					<h3 class="widget-title">Shopping cart</h3>
+					<a href="javascript:void(0);" class="widget-close">close</a>
+				</div>
+				<div class="widget_shopping_cart">
+					<div class="shopping-cart-widget-body">
+						<ul class="cart_list">
+							<li class="cart_item">
+								<a href="#" title="">
+									<img class="product-image" src="img/product-thumbnails-2.jpg" alt="">
+								</a>
+								<div class="product-details">
+									<a href="#">Smart watches wood edition</a>
+									<div class="cart-collateral">1 x <span class="price"> $599.00 </span></div>
+								</div>
+								<a href="javascript:void(0)" title="Remove This Item" class="btn-remove">X</a>
+							</li>
+							<li class="cart_item">
+								<a href="#" title="">
+									<img class="product-image" src="img/product-thumbnails-2.jpg" alt="">
+								</a>
+								<div class="product-details">
+									<a href="#">Smart watches wood edition</a>
+									<div class="cart-collateral">1 x <span class="price"> $599.00 </span></div>
+								</div>
+								<a href="javascript:void(0)" title="Remove This Item" class="btn-remove">X</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="shopping-cart-widget-footer">
+					<div class="summary">                
+						<p class="total">
+							<span class="label">Subtotal:</span>
+							<span class="price">$599.00</span> 
+						</p>
+					</div>
+					<div class="actions">
+						<a class="btn btn-cart" href="">View cart</a>
+						<a class="btn btn-checkout" href="">Check Out</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="woodmart-close-side"></div>
+		<div class="modalDialog modal">
+			<div class="close">
+				<i class="fa fa-times" aria-hidden="true"></i>
+			</div>
+			<div class="popup-press">
+				<img src="img/size_chart.jpg">
+			</div>
+		</div>
+</body>
+</html>
